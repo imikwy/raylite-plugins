@@ -5,9 +5,10 @@
     "version": "1.0.0",
     "author": "imikwy",
     "description": "Sucht Repositories auf GitHub: gh <Suchbegriff>",
+    "category": "development",
     "repository_url": "https://github.com/imikwy/raylite-plugins",
     "download_url": "https://raw.githubusercontent.com/imikwy/raylite-plugins/main/plugins/github-search-1.0.0.zip",
-    "icon_url": null,
+    "icon_url": "https://raw.githubusercontent.com/imikwy/raylite-plugins/main/icons/github-search.svg",
     "permissions": ["shell_open"],
     "min_raylite_version": "0.1.0",
     "checksum": "sha256:886b5882af4418ce2b437efdad05c3579c87d9cc2c077a5a125432fdb582ef13"
@@ -18,6 +19,7 @@
     "version": "0.1.0",
     "author": "raylite-Beispiel",
     "description": "Beispiel-Eintrag, noch nicht installierbar: aktuelles Wetter per Keyword „wetter <Ort>“",
+    "category": "productivity",
     "repository_url": "https://github.com/imikwy/raylite-plugins",
     "download_url": "https://raw.githubusercontent.com/imikwy/raylite-plugins/main/plugins/wetter-0.1.0.zip",
     "icon_url": null,
@@ -31,11 +33,26 @@
     "version": "0.1.0",
     "author": "raylite-Beispiel",
     "description": "Beispiel-Eintrag, noch nicht installierbar: Farbe unter dem Mauszeiger als Hex-Wert kopieren – braucht eine spätere raylite-Version",
+    "category": "system",
     "repository_url": "https://github.com/imikwy/raylite-plugins",
     "download_url": "https://raw.githubusercontent.com/imikwy/raylite-plugins/main/plugins/farbwaehler-0.1.0.zip",
     "icon_url": null,
     "permissions": ["clipboard_write"],
     "min_raylite_version": "0.2.0",
+    "checksum": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  {
+    "id": "musik",
+    "name": "Musiksteuerung",
+    "version": "0.1.0",
+    "author": "raylite-Beispiel",
+    "description": "Beispiel-Eintrag, noch nicht installierbar: Wiedergabe, nächster Titel und Lautstärke per Keyword „musik“",
+    "category": "media",
+    "repository_url": "https://github.com/imikwy/raylite-plugins",
+    "download_url": "https://raw.githubusercontent.com/imikwy/raylite-plugins/main/plugins/musik-0.1.0.zip",
+    "icon_url": null,
+    "permissions": ["media_control"],
+    "min_raylite_version": "0.1.0",
     "checksum": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
   }
 ]

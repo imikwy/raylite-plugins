@@ -4,8 +4,11 @@ Plugin-Index für [raylite](https://github.com/imikwy), einen Tastatur-Launcher
 für Windows. raylite lädt `registry.json` von hier, höchstens einmal pro Tag
 (oder beim manuellen Aktualisieren), und hält den letzten Stand lokal vor.
 
-> Erste Version: raylite zeigt die Liste bisher nur an. Installieren kommt später.
-> `wetter` und `farbwaehler` sind **Beispiel-Einträge** ohne Download.
+> Installiert wird in raylite im **Plugin Store** (Befehl „Plugin Store“ im
+> Launcher, Tray-Menü oder Store-Knopf in der Befehlsleiste): Permissions
+> bestätigen, raylite prüft die SHA-256-Prüfsumme und entpackt nach
+> `%APPDATA%\raylite\plugins\<id>\`. `wetter`, `farbwaehler` und `musik` sind
+> **Beispiel-Einträge** ohne Download.
 
 ## Format von `registry.json`
 
@@ -18,6 +21,7 @@ Ein JSON-Array. Jeder Eintrag:
 | `version` | ja | `x.y.z` |
 | `author` | ja | Autor bzw. Herausgeber |
 | `description` | nein | kurze Beschreibung |
+| `category` | nein | `development`, `productivity`, `media` oder `system` – fehlt sie oder ist sie unbekannt, zeigt raylite den Eintrag unter „Sonstiges“ |
 | `repository_url` | ja | Quellcode (nur `https://`) |
 | `download_url` | ja | ZIP mit `manifest.json` im Wurzelverzeichnis (nur `https://`) |
 | `icon_url` | nein | Icon (nur `https://`) oder `null` |
